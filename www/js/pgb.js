@@ -6,16 +6,11 @@ function onDeviceReady() {
 	navigator.notification.beep(1);
 }
 
-function elo() {
+function personalInfo() {
 
-	info =  'Hi, I am your smartphone :-)' + '\n' +
-			'=====' + '\n' +
-			'Name    : '     + device.name     + '\n' + 
-			'Surname : '  + device.cordova + '\n' + 
-			'Email: ' + device.platform + '\n' + 
-			'    : '     + device.uuid     + '\n' + 
-			'Device Model   : '    + device.model     + '\n' + 
-			'Device Version : '  + device.version  + '\n';
+	info =  'Name: '     + 'Jakub'    + '\n' + 
+			'Surname: '  + 'Szerszen' + '\n' + 
+			'Email: ' + 'jakubmarekszerszen@gmail.com' + '\n' + 
 
 	navigator.notification.alert(info);
 	
