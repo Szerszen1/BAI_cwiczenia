@@ -10,7 +10,7 @@ function personalInfo() {
 
 	info =  'Name: '     + 'Jakub'    + '\n' + 
 			'Surname: '  + 'Szerszen' + '\n' + 
-			'Email: ' + 'jakubmarekszerszen@gmail.com' + '\n' + 
+			'Email: ' + 'jakubmarekszerszen@gmail.com' + '\n';
 
 	navigator.notification.alert(info);
 	
