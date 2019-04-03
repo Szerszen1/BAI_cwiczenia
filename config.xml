@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-		id          = "myfirstapp"
+		id          = "baiapp"
         version     = "1.0.0" >
 
-    <name>First app</name>
-    <description>My first mobile app</description>
+    <name>BAI</name>
+    <description>Cwiczenia BAI</description>
     <author href="http://mypersonalwebsite.com" email="johnbrown@gmail.com">
-		John Brown
+		Jakub Szerszen
 	</author>
 	<platform name="android" />
 	
